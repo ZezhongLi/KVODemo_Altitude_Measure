@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235E9E6794584C6E9B6F6BAF801B47B4 /* Pods-LatLonAlti-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 597F00616E85A96ADEC8CA00E42AD28E /* Pods-LatLonAlti-dummy.m */; };
+		4AD1A17B929B099B2E1870424127292A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		733F4F44BC9E397552AC6BA36E426FFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		771AD27602722E579B35D8BD481B87AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		A1303F459ED02F95F1DA96C515A65679 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = DA87CDF4BFC0A48127D3CE947C5B1EBA /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE76E8DDC107A7FE95C8AA79866B535D /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 77623AA3D7FDD70F05FCB775D06E9F38 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E2BBB47063C21A7232BF0F6C4CE48681 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D19CBEF4EC94B462AB24B445CD0A39 /* Toast-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2098CE345A105968EF5977582CB5CEA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA78479D7EF87F6D1A9E9FFBC9B2186;
+			remoteInfo = Toast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2B587AAE7C1772E6CF9ADDB2B3E80C76 /* libPods-LatLonAlti.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LatLonAlti.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCA7A5CCA4D4C052A2179817FD97D63 /* Pods-LatLonAlti-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LatLonAlti-resources.sh"; sourceTree = "<group>"; };
+		310D46975822C1894EA6FF28086F2BD4 /* Pods-LatLonAlti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LatLonAlti.release.xcconfig"; sourceTree = "<group>"; };
+		42C83BFA0A867FEC825C88FB817233AD /* Pods-LatLonAlti-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LatLonAlti-frameworks.sh"; sourceTree = "<group>"; };
+		43850C0F1CB69230CADBE13A2FE314B5 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		597F00616E85A96ADEC8CA00E42AD28E /* Pods-LatLonAlti-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LatLonAlti-dummy.m"; sourceTree = "<group>"; };
+		66E95360BA9C933310B8CE80EBAD211B /* Pods-LatLonAlti-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LatLonAlti-acknowledgements.plist"; sourceTree = "<group>"; };
+		77623AA3D7FDD70F05FCB775D06E9F38 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		7E1DB5745C067F33FB0641CD20F99165 /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		91D19CBEF4EC94B462AB24B445CD0A39 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B926976B943793E8ECB41DCC3D14422D /* Pods-LatLonAlti-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LatLonAlti-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C14D24512AB189256BBA46F3ABD84A38 /* libToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA87CDF4BFC0A48127D3CE947C5B1EBA /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		EB611B2110BFA0481F3F431C9C4B7057 /* Pods-LatLonAlti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LatLonAlti.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C19F808618C521A784A4F5925CC0878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD1A17B929B099B2E1870424127292A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C37D7BE9746475170ACC89F00BA0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733F4F44BC9E397552AC6BA36E426FFF /* Foundation.framework in Frameworks */,
+				771AD27602722E579B35D8BD481B87AB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328A08D994481184C929D2CC9DEC6F29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E1DB5745C067F33FB0641CD20F99165 /* Toast.xcconfig */,
+				91D19CBEF4EC94B462AB24B445CD0A39 /* Toast-dummy.m */,
+				43850C0F1CB69230CADBE13A2FE314B5 /* Toast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
+			sourceTree = "<group>";
+		};
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BB6FEC3B8AB16AC298386DEC907EEFB /* Pods-LatLonAlti */ = {
+			isa = PBXGroup;
+			children = (
+				B926976B943793E8ECB41DCC3D14422D /* Pods-LatLonAlti-acknowledgements.markdown */,
+				66E95360BA9C933310B8CE80EBAD211B /* Pods-LatLonAlti-acknowledgements.plist */,
+				597F00616E85A96ADEC8CA00E42AD28E /* Pods-LatLonAlti-dummy.m */,
+				42C83BFA0A867FEC825C88FB817233AD /* Pods-LatLonAlti-frameworks.sh */,
+				2CCA7A5CCA4D4C052A2179817FD97D63 /* Pods-LatLonAlti-resources.sh */,
+				EB611B2110BFA0481F3F431C9C4B7057 /* Pods-LatLonAlti.debug.xcconfig */,
+				310D46975822C1894EA6FF28086F2BD4 /* Pods-LatLonAlti.release.xcconfig */,
+			);
+			name = "Pods-LatLonAlti";
+			path = "Target Support Files/Pods-LatLonAlti";
+			sourceTree = "<group>";
+		};
+		4EED7B87ED3AB02CBC380B79C45F37FA /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				DA87CDF4BFC0A48127D3CE947C5B1EBA /* UIView+Toast.h */,
+				77623AA3D7FDD70F05FCB775D06E9F38 /* UIView+Toast.m */,
+				328A08D994481184C929D2CC9DEC6F29 /* Support Files */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		5ADF52BA933FB457DCC27EAA52C7ECF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EED7B87ED3AB02CBC380B79C45F37FA /* Toast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7505A715C1E7BD1C4BB97F583E5299AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B587AAE7C1772E6CF9ADDB2B3E80C76 /* libPods-LatLonAlti.a */,
+				C14D24512AB189256BBA46F3ABD84A38 /* libToast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5ADF52BA933FB457DCC27EAA52C7ECF9 /* Pods */,
+				7505A715C1E7BD1C4BB97F583E5299AB /* Products */,
+				B12771F92225A1E73998AA54B9624551 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B12771F92225A1E73998AA54B9624551 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB6FEC3B8AB16AC298386DEC907EEFB /* Pods-LatLonAlti */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8762633D6253262D353B98CCE9B5D41E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1303F459ED02F95F1DA96C515A65679 /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F0A5464982D08E0D47FFA7A6714D3C6 /* Pods-LatLonAlti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8119F9A77A30D2F6E9A3C0B8DA7E820D /* Build configuration list for PBXNativeTarget "Pods-LatLonAlti" */;
+			buildPhases = (
+				BDE12E682BA5C13951CF9BCF55A59BB7 /* Sources */,
+				2C19F808618C521A784A4F5925CC0878 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26EBD32C5C20A3011DF2C1E2214AD6A /* PBXTargetDependency */,
+			);
+			name = "Pods-LatLonAlti";
+			productName = "Pods-LatLonAlti";
+			productReference = 2B587AAE7C1772E6CF9ADDB2B3E80C76 /* libPods-LatLonAlti.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DEA78479D7EF87F6D1A9E9FFBC9B2186 /* Toast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F07980AB78E66BA90FB6F5FCD7CF8A /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildPhases = (
+				2DA4F6D1FD801204CD9B433D179D7157 /* Sources */,
+				31C37D7BE9746475170ACC89F00BA0F5 /* Frameworks */,
+				8762633D6253262D353B98CCE9B5D41E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toast;
+			productName = Toast;
+			productReference = C14D24512AB189256BBA46F3ABD84A38 /* libToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7505A715C1E7BD1C4BB97F583E5299AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0A5464982D08E0D47FFA7A6714D3C6 /* Pods-LatLonAlti */,
+				DEA78479D7EF87F6D1A9E9FFBC9B2186 /* Toast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA4F6D1FD801204CD9B433D179D7157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BBB47063C21A7232BF0F6C4CE48681 /* Toast-dummy.m in Sources */,
+				CE76E8DDC107A7FE95C8AA79866B535D /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE12E682BA5C13951CF9BCF55A59BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235E9E6794584C6E9B6F6BAF801B47B4 /* Pods-LatLonAlti-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26EBD32C5C20A3011DF2C1E2214AD6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = DEA78479D7EF87F6D1A9E9FFBC9B2186 /* Toast */;
+			targetProxy = 2098CE345A105968EF5977582CB5CEA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B755D8162F66138687E1DC72CAA1700C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1DB5745C067F33FB0641CD20F99165 /* Toast.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BFB2FEB8812A19BEC90A20DC42F01D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1DB5745C067F33FB0641CD20F99165 /* Toast.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3C7F3078F1176CB3422157373CA196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310D46975822C1894EA6FF28086F2BD4 /* Pods-LatLonAlti.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DB1E68670A8F23680CE6D78BF999631A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB611B2110BFA0481F3F431C9C4B7057 /* Pods-LatLonAlti.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F07980AB78E66BA90FB6F5FCD7CF8A /* Build configuration list for PBXNativeTarget "Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB2FEB8812A19BEC90A20DC42F01D2B /* Debug */,
+				B755D8162F66138687E1DC72CAA1700C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8119F9A77A30D2F6E9A3C0B8DA7E820D /* Build configuration list for PBXNativeTarget "Pods-LatLonAlti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1E68670A8F23680CE6D78BF999631A /* Debug */,
+				CA3C7F3078F1176CB3422157373CA196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
